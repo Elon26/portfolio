@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+        "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+a {
+    color: white;
+}
+
+.App {
+    background: #43225e;
+    background: radial-gradient(#00b3ff 5%, #131111 80%);
+    min-height: 100vh;
+}
+
+.outer {
+    min-height: 100vh;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 10px;
+    color: white;
+}
+
+.mainHeader {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.photo {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
+    transition: all 0.5s ease 0s;
+    &:hover {
+        transform: scale(1.2);
+        @media (max-width: 479.98px) {
+            transform: scale(1);
+        }
+    }
+}
+
+.popap {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease 0s;
+    opacity: 0;
+    visibility: hidden;
+    &.active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    &__inner {
+        width: 700px;
+        height: 700px;
+        @media (max-width: 767.98px) {
+            width: 400px;
+            height: 400px;
+        }
+        @media (max-width: 479.98px) {
+            width: 300px;
+            height: 300px;
+        }
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+    }
+}
+
+.header {
+    margin: 10px 0px;
+}
+
+.contacts {
+    &__item {
+        margin: 5px 0px;
+    }
+}
+
+.cv {
+    &__item {
+        margin: 5px 0px;
+    }
+}
+
+.works {
+    &__item {
+        &:not(:last-child) {
+            margin: 0px 0px 20px 0px;
+        }
+    }
+
+    &__card {
+        position: relative;
+        height: 200px;
+        transition: all 0.5s ease 0s;
+        transform-style: preserve-3d;
+        @media (max-width: 1199.98px) {
+            height: 260px;
+        }
+        @media (max-width: 767.98px) {
+            height: 370px;
+        }
+        @media (max-width: 479.98px) {
+            height: 600px;
+        }
+        &.small {
+            @media (max-width: 479.98px) {
+                height: 290px;
+            }
+        }
+    }
+
+    &__front,
+    &__back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    &__front {
+        z-index: 2;
+        transform: rotateX(0deg);
+        backface-visibility: hidden;
+        display: flex;
+        background-color: #00a886;
+    }
+
+    &__screen {
+        height: 200px;
+        width: 300px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        @media (max-width: 1199.98px) {
+            height: 260px;
+        }
+        @media (max-width: 767.98px) {
+            display: none;
+        }
+    }
+
+    &__name {
+        flex: 1 1 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+
+    &__back {
+        transform: rotateX(-180deg);
+        background-color: #00a886;
+    }
+
+    &__info {
+        padding: 5px 15px;
+        text-align: justify;
+    }
+
+    &__item:hover .works__card {
+        transform: rotateX(-180deg);
+    }
+}
