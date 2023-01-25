@@ -200,3 +200,9 @@ a {
         transform: rotateX(-180deg);
     }
 }
+
+.test {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
