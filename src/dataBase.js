@@ -6,14 +6,24 @@ const works = [
         stack: "React + Redux + TypeScript + Firebase",
         repository: "https://github.com/Elon26/my-shop",
         deploy: "https://elon26.github.io/my-shop/",
-        video: "https://drive.google.com/file/d/1VxPATzUST2YMhzvOhKlXao_3MHSS8XvY/view?usp=sharing",
+        video: "",
         description: "Проект представляет собой полноценный интернет-магазин с тремя сущностями: категории, подкатегории и товары. На странице подкатегорий есть возможность сортировки, фильтрации и изменения количества товаров к отображению. Корзина ограничивает приобретение товаров, свыше имеющегося на остатках в БД. Также реализован функционал авторизации/регистрации и страница администратора для управления БД (создание, изменение и удаление товаров). Для доступа на страницу администратора используйте логин admin@bk.ru и пароль Admin@2612."
+    },
+    {
+        id: "dfgd32432dsf3wq7",
+        name: "Лэндинг HEALTHY SWITCHER",
+        img: "https://firebasestorage.googleapis.com/v0/b/diplom-project-es2612.appspot.com/o/portfolio%2FhealthyFood.jpg?alt=media&token=807ef676-60df-4843-9c37-67ef0f84c092",
+        stack: "HTML5 + CSS3 + React + Firebase",
+        repository: "https://github.com/Elon26/healthy-food",
+        deploy: "https://elon26.github.io/healthy-food/",
+        video: "",
+        description: "Проект представляет собой классический Landing Page. В проекте, помимо классической адаптивной верстки, реализован Звёздный рейтинг с возможностью голосования и базой данных голосов, хранящейся в облачной базе Firebase, а также с предотвращением повторного голования при помощи LocalStorage. Помимо этого, реализованы слайдер, спойлеры, кастомный хук для условного рендеринга компонентов в зависимости от ширины экрана, и ряд других интерактивных элементов."
     },
     {
         id: "dfgd32432dsf3wq3",
         name: "Социальная сеть",
         img: "https://firebasestorage.googleapis.com/v0/b/diplom-project-es2612.appspot.com/o/portfolio%2FfastCompany.jpg?alt=media&token=5994c219-9a82-4fea-9b99-f9078c5642de",
-        stack: "React + Redux + Firebase",
+        stack: "React + Redux + Firebase + Bootstrap",
         repository: "https://github.com/Elon26/fast-company",
         deploy: "https://elon26.github.io/fast-company/",
         video: "",
