@@ -30,6 +30,26 @@ const works = [
         description: "Проект представляет собой классический Landing Page c красивым и технически нетривиальным дизайном. В проекте, помимо классической адаптивной верстки, реализована форма с валидацией вводимых данных, маской для ввода телефона и отправкой данных на электронную почту при помощи сервиса EmailJS. Помимо этого, реализованы всплывающие окна, слайдер, спойлеры, кастомный хук для условного рендеринга компонентов в зависимости от ширины экрана, и ряд других интерактивных элементов."
     },
     {
+        id: "dfgd32432dsf3wq9",
+        name: "Лэндинг Elite Fire",
+        img: "https://firebasestorage.googleapis.com/v0/b/diplom-project-es2612.appspot.com/o/portfolio%2FeliteFire.jpg?alt=media&token=e21261d1-1760-436b-9a70-a6cd53a61773",
+        stack: "HTML5 + CSS3 + JavaScript",
+        repository: "https://github.com/Elon26/eliteFire",
+        deploy: "https://elon26.github.io/eliteFire/",
+        video: "",
+        description: "Проект реализован на чистом JavaScript и представляет собой Landing Page с дизайном средней сложности. В проекте, помимо классической адаптивной верстки, реализован ряд интерактивных элементов: несколько слайдеров, кастомные чекбоксы и кастомный ползунок. Основную сложность проекта составляла проработка адаптива дизайна для изображений, большая часть которых частично задана через фон, частично через изображения внутри контента."
+    },
+    {
+        id: "dfgd32432dsf3wq10",
+        name: "Лэндинг Conquest",
+        img: "https://firebasestorage.googleapis.com/v0/b/diplom-project-es2612.appspot.com/o/portfolio%2Fconquest.jpg?alt=media&token=2c698981-b810-45e6-8e3d-d0174f1b719a",
+        stack: "HTML5 + CSS3 + JavaScript",
+        repository: "https://github.com/Elon26/conquest",
+        deploy: "https://elon26.github.io/conquest/",
+        video: "",
+        description: "Проект реализован на чистом JavaScript и представляет собой Landing Page с простым дизайном. В проекте, помимо классической адаптивной верстки, реализован слайдер и ряд других интерактивных элементов."
+    },
+    {
         id: "dfgd32432dsf3wq3",
         name: "Социальная сеть",
         img: "https://firebasestorage.googleapis.com/v0/b/diplom-project-es2612.appspot.com/o/portfolio%2FfastCompany.jpg?alt=media&token=5994c219-9a82-4fea-9b99-f9078c5642de",
