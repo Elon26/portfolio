@@ -3,7 +3,7 @@ const works = [
         id: "dfkjd32432dsf3wq2",
         name: "Кинопортал (аналог ivi.ru)",
         img: "https://firebasestorage.googleapis.com/v0/b/diplom-project-es2612.appspot.com/o/portfolio%2Fivi.jpg?alt=media&token=c1af8fbf-50c8-4e34-a906-5aab8b2e1bb4",
-        stack: "React + Redux + TypeScript + Storybook + JEST + React Testing Library + Docker",
+        stack: "React + Redux + TypeScript + Storybook + Next.JS + JEST + React Testing Library + Docker",
         repository: "https://github.com/Elon26/dns-movies-new",
         deploy: "https://github.com/Elon26/dns-movies-new#%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%BE%D0%BA-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B8-%D0%B8-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0",
         video: "",
