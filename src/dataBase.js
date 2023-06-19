@@ -1,15 +1,5 @@
 const works = [
     {
-        id: "dfkjd32432dxf3wq2",
-        name: "Интернет-магазин Султан",
-        img: "https://firebasestorage.googleapis.com/v0/b/diplom-project-es2612.appspot.com/o/portfolio%2Fsultan.jpg?alt=media&token=0be249c2-b8c8-4ac5-8c16-362a5547b0ea",
-        stack: "React + Redux + TypeScript + Firebase + JEST + React Testing Library",
-        repository: "https://github.com/Elon26/sultan-webshop",
-        deploy: "https://elon26.github.io/sultan-webshop/",
-        video: "",
-        description: "Проект представляет собой интернет-магазин с возможностью управления базой данных. На главной странице реализована возможность перехода в каталог. Каталог загружает данные из облачной базы данных и поддерживает сортировку и сложную фильтрацию. Также в проекте реализованы корзина и админ-панель со всем сопуствующим фукнционаолом. Более подробное описание проекта и всего содержащегося в нём функционала представлено в файле Readme в репозитории."
-    },
-    {
         id: "dfgd32432dsf3wq2",
         name: "Интернет-магазин Бытовая техника",
         img: "https://firebasestorage.googleapis.com/v0/b/diplom-project-es2612.appspot.com/o/portfolio%2Fwebstore.jpg?alt=media&token=32d5d46c-4d3c-43d9-a672-457d2fd6a41b",
@@ -18,6 +8,16 @@ const works = [
         deploy: "https://elon26.github.io/my-shop/",
         video: "",
         description: "Проект представляет собой интернет-магазин с тремя сущностями: категории, подкатегории и товары. На странице подкатегорий есть возможность сортировки, фильтрации и изменения количества товаров к отображению. Корзина ограничивает приобретение товаров, свыше имеющегося на остатках в БД. Также реализован функционал авторизации/регистрации и страница администратора для управления БД (создание, изменение и удаление товаров). Для доступа на страницу администратора используйте логин admin@bk.ru и пароль Admin@2612."
+    },
+    {
+        id: "dfkjd32432dxf3wq2",
+        name: "Интернет-магазин Султан",
+        img: "https://firebasestorage.googleapis.com/v0/b/diplom-project-es2612.appspot.com/o/portfolio%2Fsultan.jpg?alt=media&token=0be249c2-b8c8-4ac5-8c16-362a5547b0ea",
+        stack: "React + Redux + TypeScript + Firebase + JEST + React Testing Library",
+        repository: "https://github.com/Elon26/sultan-webshop",
+        deploy: "https://elon26.github.io/sultan-webshop/",
+        video: "",
+        description: "Проект представляет собой интернет-магазин с возможностью управления базой данных. На главной странице реализована возможность перехода в каталог. Каталог загружает данные из облачной базы данных и поддерживает сортировку и сложную фильтрацию. Также в проекте реализованы корзина и админ-панель со всем сопуствующим фукнционаолом. Более подробное описание проекта и всего содержащегося в нём функционала представлено в файле Readme в репозитории."
     },
     {
         id: "dfkjd32432dsf3wq2",
