@@ -1,15 +1,5 @@
 const works = [
     {
-        id: "dfkjd32432dsf3wq2",
-        name: "Кинопортал (аналог ivi.ru)",
-        img: "https://firebasestorage.googleapis.com/v0/b/diplom-project-es2612.appspot.com/o/portfolio%2Fivi.jpg?alt=media&token=c1af8fbf-50c8-4e34-a906-5aab8b2e1bb4",
-        stack: "React + Redux + TypeScript + Storybook + Next.JS + JEST + React Testing Library + Docker",
-        repository: "https://github.com/Elon26/dns-movies-new",
-        deploy: "https://github.com/Elon26/dns-movies-new#%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%BE%D0%BA-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B8-%D0%B8-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0",
-        video: "",
-        description: "Проект представляет собой совмещение функционала порталов ivi.ru и Кинопоиск. Проект является fullstack-приложением, в нём реализованы как фронтент-, так и бэкенд-части. Подробное описание проекта и всего содержащегося в нём функционала представлено в файле Readme в репозитории. Там же содержится инструкция по установке и запуску приложения."
-    },
-    {
         id: "dfkjd32432dxf3wq2",
         name: "Интернет-магазин Султан",
         img: "https://firebasestorage.googleapis.com/v0/b/diplom-project-es2612.appspot.com/o/portfolio%2Fsultan.jpg?alt=media&token=0be249c2-b8c8-4ac5-8c16-362a5547b0ea",
@@ -21,13 +11,23 @@ const works = [
     },
     {
         id: "dfgd32432dsf3wq2",
-        name: "Интернет-магазин",
+        name: "Интернет-магазин Бытовая техника",
         img: "https://firebasestorage.googleapis.com/v0/b/diplom-project-es2612.appspot.com/o/portfolio%2Fwebstore.jpg?alt=media&token=32d5d46c-4d3c-43d9-a672-457d2fd6a41b",
         stack: "React + Redux + TypeScript + Firebase",
         repository: "https://github.com/Elon26/my-shop",
         deploy: "https://elon26.github.io/my-shop/",
         video: "",
         description: "Проект представляет собой интернет-магазин с тремя сущностями: категории, подкатегории и товары. На странице подкатегорий есть возможность сортировки, фильтрации и изменения количества товаров к отображению. Корзина ограничивает приобретение товаров, свыше имеющегося на остатках в БД. Также реализован функционал авторизации/регистрации и страница администратора для управления БД (создание, изменение и удаление товаров). Для доступа на страницу администратора используйте логин admin@bk.ru и пароль Admin@2612."
+    },
+    {
+        id: "dfkjd32432dsf3wq2",
+        name: "Кинопортал (аналог ivi.ru)",
+        img: "https://firebasestorage.googleapis.com/v0/b/diplom-project-es2612.appspot.com/o/portfolio%2Fivi.jpg?alt=media&token=c1af8fbf-50c8-4e34-a906-5aab8b2e1bb4",
+        stack: "React + Redux + TypeScript + Storybook + Next.JS + JEST + React Testing Library + Docker",
+        repository: "https://github.com/Elon26/dns-movies-new",
+        deploy: "https://github.com/Elon26/dns-movies-new#%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%BE%D0%BA-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B8-%D0%B8-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0",
+        video: "",
+        description: "Проект представляет собой совмещение функционала порталов ivi.ru и Кинопоиск. Проект является fullstack-приложением, в нём реализованы как фронтент-, так и бэкенд-части. Подробное описание проекта и всего содержащегося в нём функционала представлено в файле Readme в репозитории. Там же содержится инструкция по установке и запуску приложения."
     },
     {
         id: "dfgd32432dsf3wq7",
