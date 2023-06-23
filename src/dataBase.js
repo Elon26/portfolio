@@ -70,16 +70,6 @@ const works = [
         description: "Проект реализован на чистом JavaScript и представляет собой Landing Page с простым дизайном. В проекте, помимо классической адаптивной верстки, реализован слайдер и ряд других интерактивных элементов."
     },
     {
-        id: "dfgd32432dsf3wq3",
-        name: "Социальная сеть",
-        img: "https://firebasestorage.googleapis.com/v0/b/diplom-project-es2612.appspot.com/o/portfolio%2FfastCompany.jpg?alt=media&token=5994c219-9a82-4fea-9b99-f9078c5642de",
-        stack: "React + Redux + Firebase + Bootstrap",
-        repository: "https://github.com/Elon26/fast-company",
-        deploy: "https://elon26.github.io/fast-company/",
-        video: "",
-        description: "Проект представляет собой мини-версию социальной сети. В рамках первого входа, имеется возможность зарегистрироваться и создать анкету. Зарегистрированные пользователи могут увидеть анкеты всех прочих пользователей, зарегистрировавшихся ранее, а также оставить комментарии на страницах других пользователей. Поддерживается функционал редактирования созданных учётных данных. Страница с пользователями поддерживает сортировку по имеющимся полям (столбцам) и фильтрацию по профессиям (отдельное меню слева)."
-    },
-    {
         id: "dfgd32432lsf3wq3",
         name: "Страница с комментариями",
         img: "https://firebasestorage.googleapis.com/v0/b/diplom-project-es2612.appspot.com/o/portfolio%2Fcomments.png?alt=media&token=b5946168-e2d5-4409-9c53-5813821ff681",
