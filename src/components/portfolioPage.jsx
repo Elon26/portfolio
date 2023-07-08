@@ -23,7 +23,7 @@ const PortfolioPage = () => {
     return (
         <div className="outer" onClick={checkOuterClick}>
             <div className="container">
-                <h1 className="mainHeader">Сологуб Евгений Юрьевич</h1>
+                <h1 className="mainHeader">Сологуб Евгений</h1>
                 <div className="photo" onClick={openPopap}>
                     <img src="https://firebasestorage.googleapis.com/v0/b/diplom-project-es2612.appspot.com/o/portfolio%2FmyPhoto.jpeg?alt=media&token=7353a015-2c76-4a2b-b086-ec7c4f1a5af5" alt="Фотография" />
                 </div>
