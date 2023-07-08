@@ -1,6 +1,6 @@
 import React from "react";
 
-const Work = ({ name, img, stack, repository, deploy, video, description }) => {
+const Work = ({ name, img, stack, repository, deploy, video, description, install }) => {
     return (
         <div className="works__item">
             <div className={"works__card " + (description.length > 500 ? "big" : "small")}>
@@ -22,10 +22,14 @@ const Work = ({ name, img, stack, repository, deploy, video, description }) => {
                             <a href={repository}
                                 target="blank">Перейти в репозиторий GitHub</a>
                         </div>
-                        <div className="works__infoItem">
+                        {deploy && <div className="works__infoItem">
                             <a href={deploy}
                                 target="blank">Посмотреть deploy проекта</a>
-                        </div>
+                        </div>}
+                        {install && <div className="works__infoItem">
+                            <a href={install}
+                                target="blank">Порядок установки проекта</a>
+                        </div>}
                         {video && <div className="works__infoItem">
                             <a href={video}
                                 target="blank">Посмотреть видеопрезентацию проекта</a>

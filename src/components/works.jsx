@@ -13,6 +13,7 @@ const Works = () => {
                 stack={work.stack}
                 repository={work.repository}
                 deploy={work.deploy}
+                install={work.install}
                 video={work.video}
                 description={work.description}
             />)}
