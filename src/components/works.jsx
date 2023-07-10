@@ -16,6 +16,7 @@ const Works = () => {
                 install={work.install}
                 video={work.video}
                 description={work.description}
+                adminPanel={work.adminPanel}
             />)}
         </div>);
 };
