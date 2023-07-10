@@ -20,7 +20,7 @@ const works = [
     },
     {
         id: "dfkjd32432dsf3wq2",
-        name: "Кинопортал (аналог ivi.ru)",
+        name: "Кинопортал DNS-Films",
         img: "https://firebasestorage.googleapis.com/v0/b/diplom-project-es2612.appspot.com/o/portfolio%2Fivi.jpg?alt=media&token=c1af8fbf-50c8-4e34-a906-5aab8b2e1bb4",
         stack: "React + Redux + TypeScript + Storybook + Next.JS + JEST + React Testing Library + Docker",
         repository: "https://github.com/Elon26/dns-movies-new",
