@@ -1,5 +1,14 @@
 const works = [
     {
+        id: "dfgd31132dsf3wq2",
+        name: "Образовательная платформа Сотка",
+        img: "https://firebasestorage.googleapis.com/v0/b/diplom-project-es2612.appspot.com/o/portfolio%2FsotkaStudy.jpg?alt=media&token=6c4665fb-0638-49af-9f1c-d89c69b09b9f",
+        stack: "React + Next.JS + Redux + TypeScript + Firebase",
+        repository: "https://github.com/Elon26/sotka-study",
+        deploy: "https://elon26.github.io/sotka-study/",
+        description: "Опубликованная версия образовательной платформы содержит первоначальную базу педагогов и базовое описание тарифов, также ней ограничен функционал приобретения услуг, в остальном представленная версия полностью соответствует рабочей. В проекте реализованы следующие страницы - Главная, Страницы преподавателей, Страница тарифов с сопутствующим функционалом. В проекте реализовано большое количество графики, медиаматериалов и сложного дизайна, на всех страницах приложения предусмотрена адаптивная вёрстка."
+    },
+    {
         id: "dfgd32432dsf3wq2",
         name: "Интернет-магазин Популярная техника",
         img: "https://firebasestorage.googleapis.com/v0/b/diplom-project-es2612.appspot.com/o/portfolio%2Fwebstore.jpg?alt=media&token=32d5d46c-4d3c-43d9-a672-457d2fd6a41b",
