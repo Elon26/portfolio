@@ -5,7 +5,7 @@ import works from "../dataBase";
 const Works = () => {
     return (
         <div className="works">
-            <h2 className="works__header header">Мои работы:</h2>
+            <h2 className="works__header header">Some of my works:</h2>
             {works.map(work => <Work
                 key={work.id}
                 name={work.name}
