@@ -9,7 +9,10 @@ const CV = () => {
                     <a href="https://www.linkedin.com/in/evgenii-sologub/" target="blank">Go to LinkedIn</a>
                 </p>
                 <p>
-                    <a href="https://firebasestorage.googleapis.com/v0/b/diplom-project-es2612.appspot.com/o/portfolio%2FEvgenii_Sologub_CV.pdf?alt=media&token=45da4df7-707f-4a72-b5a4-8a08a26d0e24" target="blank">Download</a>
+                    <a href="https://hh.ru/resume/a2cc2532ff0b90145c0039ed1f4d6e6d376e62/" target="blank">Go to Headhunter</a>
+                </p>
+                <p>
+                    <a href="https://firebasestorage.googleapis.com/v0/b/diplom-project-es2612.appspot.com/o/portfolio%2FEvgenii_Sologub_CV.pdf?alt=media&token=536cae78-6ba4-4506-a885-c7e43a8d371b" target="blank">Download</a>
                 </p>
             </div>
         </div>);
