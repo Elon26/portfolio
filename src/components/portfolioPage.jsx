@@ -2,43 +2,48 @@ import React, { useState } from "react";
 import Contacts from "./contacts";
 import CV from "./CV";
 import Works from "./works";
-import About from "./About";
+import About from "./about";
+import LangButton from "./langButton";
+import langs from "../lang/langs.json";
+import { useLangs } from "../hooks/useLangs";
 
 const PortfolioPage = () => {
-    const [isShowPopap, setIsShowPopap] = useState(false);
+    const { lang } = useLangs();
+    const [isShowPopup, setIsShowPopup] = useState(false);
 
-    const openPopap = () => {
-        setIsShowPopap(true);
+    const openPopup = () => {
+        setIsShowPopup(true);
     };
 
-    const closePopap = () => {
-        setIsShowPopap(false);
+    const closePopup = () => {
+        setIsShowPopup(false);
     };
 
     const checkOuterClick = (e) => {
-        if (isShowPopap && !e.target.closest(".popap__inner")) {
-            closePopap();
+        if (isShowPopup && !e.target.closest(".popup__inner")) {
+            closePopup();
         }
     };
 
     return (
         <div className="outer" onClick={checkOuterClick}>
             <div className="container">
-                <h1 className="mainHeader">Evgenii Sologub</h1>
-                <div className="photo" onClick={openPopap}>
+                <h1 className="mainHeader">{langs[lang].myName}</h1>
+                <div className="photo" onClick={openPopup}>
                     <img src="https://firebasestorage.googleapis.com/v0/b/diplom-project-es2612.appspot.com/o/portfolio%2FmyPhoto.jpg?alt=media&token=6d206d45-ccc3-442d-9c44-4543ea8a334c" alt="Me" />
                 </div>
-                <div className={"popap " + (isShowPopap ? "active" : "")}>
-                    <div className="popap__inner">
+                <div className={"popup " + (isShowPopup ? "active" : "")}>
+                    <div className="popup__inner">
                         <img src="https://firebasestorage.googleapis.com/v0/b/diplom-project-es2612.appspot.com/o/portfolio%2FmyPhoto.jpg?alt=media&token=6d206d45-ccc3-442d-9c44-4543ea8a334c" alt="Me" />
                     </div>
                 </div>
+                <LangButton/>
                 <About/>
                 <Contacts />
                 <CV />
                 <Works />
                 <Contacts />
-                <h2 className="mainHeader">Thank you for your time!!!</h2>
+                <h2 className="mainHeader">{langs[lang].thanks}</h2>
             </div>
         </div>);
 };

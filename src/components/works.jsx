@@ -1,12 +1,15 @@
 import React from "react";
 import Work from "./work";
-import works from "../dataBase";
+import langs from "../lang/langs.json";
+import { useLangs } from "../hooks/useLangs";
 
 const Works = () => {
+    const { lang } = useLangs();
+
     return (
         <div className="works">
-            <h2 className="works__header header">Some of my works:</h2>
-            {works.map(work => <Work
+            <h2 className="works__header header">{langs[lang].worksHeaders.title}:</h2>
+            {langs[lang].works.map(work => <Work
                 key={work.id}
                 name={work.name}
                 img={work.img}

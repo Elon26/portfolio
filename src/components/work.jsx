@@ -1,6 +1,10 @@
 import React from "react";
+import langs from "../lang/langs.json";
+import { useLangs } from "../hooks/useLangs";
 
 const Work = ({ name, img, stack, repository, deploy, video, description, install, adminPanel }) => {
+    const { lang } = useLangs();
+
     return (
         <div className="works__item">
             <div className={"works__card " + (description.length > 500 ? "big" : "small")}>
@@ -13,33 +17,26 @@ const Work = ({ name, img, stack, repository, deploy, video, description, instal
                 <div className="works__back">
                     <div className="works__info">
                         <div className="works__infoItem">
-                            <b>Project name: </b>{name}
+                            <b>{langs[lang].worksHeaders.project}: </b>{name}
                         </div>
                         <div className="works__infoItem">
-                            <b>Technology stack: </b>{stack}
+                            <b>{langs[lang].worksHeaders.stack}: </b>{stack}
                         </div>
                         <div className="works__infoItem">
-                            <a href={repository}
-                                target="blank">Go to the GitHub repository</a>
+                            <a href={repository}target="blank">{langs[lang].worksHeaders.repository}</a>
                         </div>
                         {deploy && <div className="works__infoItem">
                             <a href={deploy}
-                                target="blank">View project deploy</a>
+                                target="blank">{langs[lang].worksHeaders.deploy}</a>
                         </div>}
                         {install && <div className="works__infoItem">
-                            <a href={install}
-                                target="blank">Project installation instructions</a>
+                            <a href={install} target="blank">{langs[lang].worksHeaders.install}</a>
                         </div>}
                         {adminPanel && <div className="works__infoItem">
-                            <a href={adminPanel}
-                                target="blank">Go to the admin panel</a>
-                        </div>}
-                        {video && <div className="works__infoItem">
-                            <a href={video}
-                                target="blank">Watch the project video presentation</a>
+                            <a href={adminPanel} target="blank">{langs[lang].worksHeaders.adminPanel}</a>
                         </div>}
                         <div className="works__infoItem">
-                            <b>Project description: </b>{description}
+                            <b>{langs[lang].worksHeaders.description}: </b>{description}
                         </div>
                     </div>
                 </div>
