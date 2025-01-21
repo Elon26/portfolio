@@ -16,10 +16,10 @@ const Contacts = () => {
                 <b>WhatsApp: </b>
                 <span>+7 984-147-02-46</span>
             </div>
-            <div className="contacts__item">
+            {/* <div className="contacts__item">
                 <b>{langs[lang].contacts.mobile}: </b>
                 <a href="tel:+995593236434">+995 593-23-64-34</a>
-            </div>
+            </div> */}
             <div className="contacts__item">
                 <b>Email: </b>
                 <a href="mailto:evgeniy.sologub.vl@gmail.com">evgeniy.sologub.vl@gmail.com</a>
